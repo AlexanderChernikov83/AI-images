@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ёлочные игрушки из фото питомцев — AI‑генерация</title>
+  <style>
+    :root{--bg:#f7f7fb;--card:#ffffff;--accent:#2274A5;--muted:#6b7280}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#0b1220; margin:0; padding:24px}
+    header{max-width:1000px;margin:0 auto 18px;padding:18px 22px;background:linear-gradient(90deg,#fff 0%, #fbfdff 100%);border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    h1{margin:0 0 6px;font-size:28px}
+    p.lead{margin:0;color:var(--muted)}
+    main{max-width:1000px;margin:18px auto}
+    .intro, .how, .gallery, .links, footer{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(15,23,42,0.04);margin-bottom:18px}
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+    figure{margin:0;background:#fbfdff;border-radius:10px;padding:10px;display:flex;flex-direction:column;align-items:center}
+    img{width:100%;height:auto;border-radius:8px;display:block}
+    figcaption{margin-top:10px;font-size:14px;color:var(--muted);text-align:center}
+    a{color:var(--accent);text-decoration:none}
+    hr.sep{border:none;border-top:1px solid #eef2f7;margin:18px 0}
+    .note{font-size:13px;color:var(--muted);margin-top:8px}
+    .cta{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent), #2b9bd6);color:white;text-decoration:none}
+    footer{font-size:13px;color:var(--muted);text-align:center}
+    .small{font-size:13px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ёлочные игрушки из фото домашних животных (AI‑генерация)</h1>
+    <p class="lead">Концепт: превращаем любимые фото питомцев в стильные цифровые макеты ёлочных игрушек с помощью нейросети — для печати, лазерной резки или цифровой открытки.</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>О проекте</h2>
+      <p>Идея проста: ты загружаешь фотографии своего кота, собаки или хомяка, затем нейросеть обрабатывает изображение, добавляет праздничный стиль, рамку и подготовку под форму шарика или сердца. Полученные макеты можно распечатать, вставить в прозрачный шар или использовать как цифровую открытку.</p>
+      <p class="note">(На этой странице — демонстрация. Приведённые изображения помечены как «AI‑сгенерированные».)</p>
+      <hr class="sep">
+      <h3>Преимущества</h3>
+      <ul>
+        <li>Быстро — макет за пару минут.</li>
+        <li>Персонально — игрушка с реальным лицом питомца.</li>
+        <li>Гибкость — варианты печати, материалы и формы.</li>
+      </ul>
+    </section>
+
+    <section class="how">
+      <h2>Как это работает</h2>
+      <ol>
+        <li>Выбираешь фото питомца (хорошее освещение, лицо в фокусе).</li>
+        <li>Нейросеть извлекает контур и стиль, применяет праздничные элементы (звёзды, снежинки, гирлянды).</li>
+        <li>Генерируются варианты: круглый шар, плоская подвеска, сердце.</li>
+        <li>Получаешь набор файлов (PNG с прозрачным фоном, PDF для печати).</li>
+      </ol>
+      <p class="small">Важно: для наилучшего результата — соблюдай правила авторского права и приватности при использовании фотографий.</p>
+    </section>
+
+    <section class="gallery">
+      <h2>Галерея — примеры AI‑сгенерированных макетов</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="images/pet1.png" alt="Ёлочная игрушка в виде собаки — пример фото пользователя"/>
+          <figcaption>Фото 1 — украшение в виде собачки.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/pet2.png" alt="Ёлочная игрушка в виде собаки — пример фото пользователя"/>
+          <figcaption>Фото 2 — украшение в праздничном костюме.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/pet3.png" alt="Ёлочная игрушка в виде кота — пример фото пользователя"/>
+          <figcaption>Фото 3 — украшение в виде кота.</figcaption>
+        </figure>
+      </div>
+
+      <p class="note">Чтобы использовать свои фото, замени адреса в <code>src="..."</code> на путь к твоим изображениям (например, <code>images/mycat.png</code> или абсолютный URL). Если размещаешь локально, положи файлы в папку <code>images</code> рядом с HTML и пропиши путь. Пример: <code>&lt;img src="images/cat.png" alt="мой кот"&gt;</code>.</p>
+
+      <p class="note">Хочешь заменить примеры на свои фотографии? Прикрепи их — я помогу адаптировать и подготовить макеты к печати.</p>
+    </section>
+
+    <section class="links">
+      <h2>Полезные ссылки</h2>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Generative_adversarial_network" target="_blank" rel="noopener">Что такое нейросеть (GAN)</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Image_editing" target="_blank" rel="noopener">Инструменты редактирования и подготовка к печати</a></li>
+        <li><a href="#" class="cta">Заказать макет по фото</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2025 — Демонстрация: «Ёлочные игрушки из фото питомцев». Все изображения на странице — примеры и помечены как AI‑сгенерированные.</p>
+      <p class="small">Если нужно — могу добавить CSS анимацию, фоновую музыку или подготовить файлы для печати (PDF/PNG) прямо сейчас.</p>
+    </footer>
+  </main>
+</body>
+</html>
